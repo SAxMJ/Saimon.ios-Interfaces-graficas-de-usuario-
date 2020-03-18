@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="DrawController">
+            <connections>
+                <outlet property="window" destination="F0z-JX-Cv5" id="gIp-Ho-8D9"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="SAIMON" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="F0z-JX-Cv5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="586" y="146" width="812" height="812"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+            <value key="minSize" type="size" width="812" height="812"/>
+            <value key="maxSize" type="size" width="812" height="812"/>
+            <value key="minFullScreenContentSize" type="size" width="812" height="812"/>
+            <value key="maxFullScreenContentSize" type="size" width="812" height="812"/>
+            <view key="contentView" wantsLayer="YES" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="se5-gp-TjO">
+                <rect key="frame" x="0.0" y="0.0" width="812" height="812"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p5N-ei-tyc" customClass="DrawController">
+                        <rect key="frame" x="11" y="70" width="790" height="722"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <connections>
+                            <outlet property="controlador" destination="IpI-Rv-MNw" id="pfe-ny-dmA"/>
+                        </connections>
+                    </customView>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f1Y-SB-OQf">
+                        <rect key="frame" x="14" y="15" width="63" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <buttonCell key="cell" type="push" title="Exit" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hOG-bJ-SWV">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="salJuego:" target="IpI-Rv-MNw" id="3PC-Lz-wEw"/>
+                        </connections>
+                    </button>
+                    <textField autoresizesSubviews="NO" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ovb-fA-pYx">
+                        <rect key="frame" x="58" y="6" width="206" height="35"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="TURNO" id="R73-3O-MYu">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                        <connections>
+                            <outlet property="delegate" destination="IpI-Rv-MNw" id="yID-0T-Lx0"/>
+                        </connections>
+                    </textField>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zz3-Ul-kcU">
+                        <rect key="frame" x="356" y="15" width="101" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="EMPEZAR" bezelStyle="rounded" alignment="center" enabled="NO" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="FVg-Gx-U1M">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="temporizadorEsperaAlIniciarPrograma:" target="IpI-Rv-MNw" id="CVV-4F-OHe"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Fx-gb-wUg">
+                        <rect key="frame" x="658" y="15" width="149" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="PANEL DE JUEGO" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ybj-7J-QQk">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="panelControl:" target="IpI-Rv-MNw" id="0Q7-6e-gpa"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="IpI-Rv-MNw" id="Xjo-jN-5i3"/>
+            </connections>
+            <point key="canvasLocation" x="-849" y="-2211"/>
+        </window>
+        <customObject id="IpI-Rv-MNw" customClass="Controller">
+            <connections>
+                <outlet property="abrePanel" destination="1Fx-gb-wUg" id="Ayb-np-asv"/>
+                <outlet property="empezar" destination="zz3-Ul-kcU" id="xbh-YR-Q5f"/>
+                <outlet property="exit" destination="f1Y-SB-OQf" id="xlK-Iw-mUn"/>
+                <outlet property="panel" destination="1Fx-gb-wUg" id="Szw-2D-PlO"/>
+                <outlet property="turno" destination="ovb-fA-pYx" id="keZ-0l-o5R"/>
+                <outlet property="vista" destination="p5N-ei-tyc" id="2Vj-2s-3L9"/>
+            </connections>
+        </customObject>
+    </objects>
+</document>

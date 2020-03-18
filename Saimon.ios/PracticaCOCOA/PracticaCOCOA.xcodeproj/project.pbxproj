@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D80DA5E236B093A006C4207 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D80DA5C236B08F7006C4207 /* AudioToolbox.framework */; };
+		7D80DA63236B0A36006C4207 /* Rojo.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7D80DA5F236B0A36006C4207 /* Rojo.caf */; };
+		7D80DA64236B0A36006C4207 /* Azul.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7D80DA60236B0A36006C4207 /* Azul.caf */; };
+		7D80DA65236B0A36006C4207 /* Amarillo.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7D80DA61236B0A36006C4207 /* Amarillo.caf */; };
+		7D80DA66236B0A36006C4207 /* Verde.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7D80DA62236B0A36006C4207 /* Verde.caf */; };
+		7DDB02AD2361C25B00C9BF2B /* Figura.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB02AC2361C25B00C9BF2B /* Figura.m */; };
+		FB4A2543235F00AF00BF4395 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A2542235F00AF00BF4395 /* AppDelegate.m */; };
+		FB4A2545235F00B000BF4395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4A2544235F00B000BF4395 /* Assets.xcassets */; };
+		FB4A254B235F00B000BF4395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A254A235F00B000BF4395 /* main.m */; };
+		FB4A2558235F04C300BF4395 /* DrawController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A2556235F04C300BF4395 /* DrawController.m */; };
+		FB4A2559235F04C300BF4395 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB4A2557235F04C300BF4395 /* MainMenu.xib */; };
+		FB4A255C235F089B00BF4395 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A255B235F089B00BF4395 /* Controller.m */; };
+		FBE24A732371E4AC009698EF /* Fallo.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBE24A712371E4AC009698EF /* Fallo.caf */; };
+		FBE24A742371E4AC009698EF /* Victoria.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBE24A722371E4AC009698EF /* Victoria.caf */; };
+		FBE24A762371EA5A009698EF /* alerta.caf in Resources */ = {isa = PBXBuildFile; fileRef = FBE24A752371EA5A009698EF /* alerta.caf */; };
+		FBF2C3012375E96C00C5391D /* ETPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF2C2FF2375E96C00C5391D /* ETPanelController.m */; };
+		FBF2C3022375E96C00C5391D /* ETPanelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBF2C3002375E96C00C5391D /* ETPanelController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D80DA5C236B08F7006C4207 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7D80DA5F236B0A36006C4207 /* Rojo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rojo.caf; sourceTree = "<group>"; };
+		7D80DA60236B0A36006C4207 /* Azul.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Azul.caf; sourceTree = "<group>"; };
+		7D80DA61236B0A36006C4207 /* Amarillo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Amarillo.caf; sourceTree = "<group>"; };
+		7D80DA62236B0A36006C4207 /* Verde.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Verde.caf; sourceTree = "<group>"; };
+		7DDB02AB2361C25B00C9BF2B /* Figura.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Figura.h; sourceTree = "<group>"; };
+		7DDB02AC2361C25B00C9BF2B /* Figura.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Figura.m; sourceTree = "<group>"; };
+		FB4A253E235F00AF00BF4395 /* PracticaCOCOA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaCOCOA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4A2541235F00AF00BF4395 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB4A2542235F00AF00BF4395 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB4A2544235F00B000BF4395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4A2549235F00B000BF4395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4A254A235F00B000BF4395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB4A254C235F00B000BF4395 /* PracticaCOCOA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PracticaCOCOA.entitlements; sourceTree = "<group>"; };
+		FB4A2555235F04C300BF4395 /* DrawController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawController.h; sourceTree = "<group>"; };
+		FB4A2556235F04C300BF4395 /* DrawController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawController.m; sourceTree = "<group>"; };
+		FB4A2557235F04C300BF4395 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		FB4A255A235F089B00BF4395 /* Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		FB4A255B235F089B00BF4395 /* Controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+		FBE24A712371E4AC009698EF /* Fallo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fallo.caf; sourceTree = "<group>"; };
+		FBE24A722371E4AC009698EF /* Victoria.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Victoria.caf; sourceTree = "<group>"; };
+		FBE24A752371EA5A009698EF /* alerta.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = alerta.caf; sourceTree = "<group>"; };
+		FBF2C2FE2375E96C00C5391D /* ETPanelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ETPanelController.h; sourceTree = "<group>"; };
+		FBF2C2FF2375E96C00C5391D /* ETPanelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ETPanelController.m; sourceTree = "<group>"; };
+		FBF2C3002375E96C00C5391D /* ETPanelController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ETPanelController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4A253B235F00AF00BF4395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D80DA5E236B093A006C4207 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D80DA5B236B08F7006C4207 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D80DA5C236B08F7006C4207 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB4A2535235F00AF00BF4395 = {
+			isa = PBXGroup;
+			children = (
+				FB4A2540235F00AF00BF4395 /* PracticaCOCOA */,
+				FB4A253F235F00AF00BF4395 /* Products */,
+				7D80DA5B236B08F7006C4207 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4A253F235F00AF00BF4395 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A253E235F00AF00BF4395 /* PracticaCOCOA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4A2540235F00AF00BF4395 /* PracticaCOCOA */ = {
+			isa = PBXGroup;
+			children = (
+				FBE24A712371E4AC009698EF /* Fallo.caf */,
+				FBE24A722371E4AC009698EF /* Victoria.caf */,
+				FBE24A752371EA5A009698EF /* alerta.caf */,
+				7D80DA61236B0A36006C4207 /* Amarillo.caf */,
+				7D80DA60236B0A36006C4207 /* Azul.caf */,
+				7D80DA5F236B0A36006C4207 /* Rojo.caf */,
+				7D80DA62236B0A36006C4207 /* Verde.caf */,
+				FB4A2554235F00D300BF4395 /* Controlador */,
+				FB4A2553235F00CB00BF4395 /* Vista */,
+				FB4A2552235F00BE00BF4395 /* Modelo */,
+				FB4A2541235F00AF00BF4395 /* AppDelegate.h */,
+				FB4A2542235F00AF00BF4395 /* AppDelegate.m */,
+				FB4A2544235F00B000BF4395 /* Assets.xcassets */,
+				FB4A2549235F00B000BF4395 /* Info.plist */,
+				FB4A254A235F00B000BF4395 /* main.m */,
+				FB4A254C235F00B000BF4395 /* PracticaCOCOA.entitlements */,
+			);
+			path = PracticaCOCOA;
+			sourceTree = "<group>";
+		};
+		FB4A2552235F00BE00BF4395 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		FB4A2553235F00CB00BF4395 /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A2557235F04C300BF4395 /* MainMenu.xib */,
+			);
+			path = Vista;
+			sourceTree = "<group>";
+		};
+		FB4A2554235F00D300BF4395 /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A2556235F04C300BF4395 /* DrawController.m */,
+				FB4A2555235F04C300BF4395 /* DrawController.h */,
+				7DDB02AC2361C25B00C9BF2B /* Figura.m */,
+				7DDB02AB2361C25B00C9BF2B /* Figura.h */,
+				FB4A255A235F089B00BF4395 /* Controller.h */,
+				FB4A255B235F089B00BF4395 /* Controller.m */,
+				FBF2C2FE2375E96C00C5391D /* ETPanelController.h */,
+				FBF2C2FF2375E96C00C5391D /* ETPanelController.m */,
+				FBF2C3002375E96C00C5391D /* ETPanelController.xib */,
+			);
+			path = Controlador;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4A253D235F00AF00BF4395 /* PracticaCOCOA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4A254F235F00B000BF4395 /* Build configuration list for PBXNativeTarget "PracticaCOCOA" */;
+			buildPhases = (
+				FB4A253A235F00AF00BF4395 /* Sources */,
+				FB4A253B235F00AF00BF4395 /* Frameworks */,
+				FB4A253C235F00AF00BF4395 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PracticaCOCOA;
+			productName = PracticaCOCOA;
+			productReference = FB4A253E235F00AF00BF4395 /* PracticaCOCOA.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4A2536235F00AF00BF4395 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = USAL;
+				TargetAttributes = {
+					FB4A253D235F00AF00BF4395 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = FB4A2539235F00AF00BF4395 /* Build configuration list for PBXProject "PracticaCOCOA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4A2535235F00AF00BF4395;
+			productRefGroup = FB4A253F235F00AF00BF4395 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4A253D235F00AF00BF4395 /* PracticaCOCOA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4A253C235F00AF00BF4395 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4A2559235F04C300BF4395 /* MainMenu.xib in Resources */,
+				FB4A2545235F00B000BF4395 /* Assets.xcassets in Resources */,
+				FBE24A732371E4AC009698EF /* Fallo.caf in Resources */,
+				FBF2C3022375E96C00C5391D /* ETPanelController.xib in Resources */,
+				FBE24A762371EA5A009698EF /* alerta.caf in Resources */,
+				7D80DA66236B0A36006C4207 /* Verde.caf in Resources */,
+				7D80DA63236B0A36006C4207 /* Rojo.caf in Resources */,
+				FBE24A742371E4AC009698EF /* Victoria.caf in Resources */,
+				7D80DA64236B0A36006C4207 /* Azul.caf in Resources */,
+				7D80DA65236B0A36006C4207 /* Amarillo.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4A253A235F00AF00BF4395 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4A254B235F00B000BF4395 /* main.m in Sources */,
+				FBF2C3012375E96C00C5391D /* ETPanelController.m in Sources */,
+				7DDB02AD2361C25B00C9BF2B /* Figura.m in Sources */,
+				FB4A2543235F00AF00BF4395 /* AppDelegate.m in Sources */,
+				FB4A2558235F04C300BF4395 /* DrawController.m in Sources */,
+				FB4A255C235F089B00BF4395 /* Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FB4A254D235F00B000BF4395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FB4A254E235F00B000BF4395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FB4A2550235F00B000BF4395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PracticaCOCOA/PracticaCOCOA.entitlements.xml;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PracticaCOCOA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = USAL.PracticaCOCOA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB4A2551235F00B000BF4395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PracticaCOCOA/PracticaCOCOA.entitlements.xml;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = PracticaCOCOA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = USAL.PracticaCOCOA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4A2539235F00AF00BF4395 /* Build configuration list for PBXProject "PracticaCOCOA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A254D235F00B000BF4395 /* Debug */,
+				FB4A254E235F00B000BF4395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4A254F235F00B000BF4395 /* Build configuration list for PBXNativeTarget "PracticaCOCOA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4A2550235F00B000BF4395 /* Debug */,
+				FB4A2551235F00B000BF4395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4A2536235F00AF00BF4395 /* Project object */;
+}
